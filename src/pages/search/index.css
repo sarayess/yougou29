@@ -1,0 +1,71 @@
+.top {
+  height: 100rpx;
+  background-color: #eeeeee;
+  position: relative;
+  padding: 30rpx 16rpx 10rpx 16rpx;
+}
+.top input {
+  width: 100%;
+  background-color: #fff;
+  padding-left: 78rpx;
+  height: 60rpx;
+  position: absolute;
+}
+.top icon {
+  position: absolute;
+  top: 60rpx;
+  left: 40rpx;
+}
+.tab {
+  height: 100rpx;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.tab div {
+  width: 33.33%;
+  line-height: 100rpx;
+  text-align: center;
+}
+.tab .active {
+  color: #eb4f5d;
+}
+.product {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  height: 260rpx;
+  padding: 0 20rpx;
+}
+.product .left {
+  width: 30%;
+  height: 195rpx;
+  margin-top: 30rpx;
+}
+.product .left image {
+  width: 100%;
+  height: 100%;
+}
+.product .right {
+  flex: 1;
+  height: 195rpx;
+  padding: 30rpx;
+}
+.product .right .word {
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.product .right .price {
+  color: red;
+  margin-top: 60rpx;
+}
+.product .right .price span:first-child {
+  font-size: 14px;
+}
+.product .right .price span:last-child {
+  font-size: 20px;
+}
