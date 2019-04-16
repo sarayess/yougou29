@@ -51,9 +51,16 @@
 				},
 				{
 					"id": 2,
-					"name": "search",
-					"pathName": "pages/search/main",
-					"query": "query=曲面电视",
+					"name": "searchList",
+					"pathName": "pages/searchList/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "detail",
+					"pathName": "pages/detail/main",
+					"query": "id = 43982",
 					"scene": null
 				}
 			]

@@ -63,7 +63,7 @@ export default {
      let res = await request({
        url:"https://itjustfun.cn/api/public/v1/home/swiperdata"
      })
-     //console.log(res)
+     //console.log(res)11
      this.imgList = res.data.data;
      let res1 = await request({
        url:"https://itjustfun.cn/api/public/v1/home/catitems"

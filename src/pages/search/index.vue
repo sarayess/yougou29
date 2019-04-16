@@ -20,7 +20,9 @@
      </div>
      <!-- 商品列表 -->
      <div>
-     <div class="product" :style="{margonTop:margintop}" v-for="(item,index) in goodsList" :key="index">
+       
+     <div class="product" :style="{margonTop:margintop}" v-for="(item,index) in goodsList" :key="index" >
+       <a :href="'/pages/detail/main?id=' + item.goods_id" >
        <div class="left">
          <image :src="item.goods_small_logo"></image>
        </div>
@@ -31,7 +33,9 @@
            <span>{{item.goods_price}}</span>
          </div>
        </div>
+       </a>
      </div>
+     
      </div>
   </div>
 </template>

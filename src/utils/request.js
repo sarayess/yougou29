@@ -9,6 +9,7 @@ let request = function(option){
           methods: option.method || 'get',
           header:option.header || {},
           data:option.data || {},
+          goods_id:option.goods_id || '',
           success:function(res){
             wx.hideLoading()
               resolve(res)

@@ -1,13 +1,13 @@
 <template>
 <!-- 顶部搜索栏 -->
     
-    <div class="top">
+    <a class="top" href="/pages/searchList/main">
       <input type="text">
       <div class="search">
         <icon type="search" size="20"/>
         <span>搜索</span>
       </div>
-    </div>
+    </a>
 </template>
 
 <script>

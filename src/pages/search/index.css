@@ -42,6 +42,11 @@
   height: 260rpx;
   padding: 0 20rpx;
 }
+.product a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .product .left {
   width: 30%;
   height: 195rpx;
