@@ -1,20 +1,25 @@
-.top {
-  height: 100rpx;
-  background-color: #eeeeee;
-  position: relative;
-  padding: 30rpx 16rpx 10rpx 16rpx;
-}
-.top input {
+.mytop {
+  top: 0px;
+  left: 0px;
   width: 100%;
-  background-color: #fff;
-  padding-left: 78rpx;
-  height: 60rpx;
-  position: absolute;
 }
-.top icon {
+.search {
+  padding: 20rpx 16rpx;
+  background-color: #eeeeee;
+}
+.search .serach_input {
+  width: 100%;
+  height: 60rpx;
+  background-color: #fff;
+  position: relative;
+}
+.search .serach_input input {
+  padding-left: 70rpx;
+}
+.search .serach_input .word {
   position: absolute;
-  top: 60rpx;
-  left: 40rpx;
+  top: 6rpx;
+  left: 20rpx;
 }
 .tab {
   height: 100rpx;
